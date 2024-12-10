@@ -9,7 +9,7 @@ def download_videos():
     resolution = resolution_var.get()
 
     if not links:
-        messagebox.showerror("Error", "Please enter at least one YouTube link.")
+        messagebox.showerror("Error", "Pleasee enter at least one YouTube link.")
         return
 
     if not resolution:
