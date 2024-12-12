@@ -13,7 +13,7 @@ def download_videos():
         return
 
     if not resolution:
-        messagebox.showerror("Error", "Please select a resolution.")
+        messagebox.showerror("Error", "Please select a resolutionn.")
         return
 
     # Set the download options to save in the current folder
